@@ -6,7 +6,7 @@
 ----
 
 [在知乎阅读正文](//zhuanlan.zhihu.com/p/28488426)
-[在GitHub阅读正文](blob/master/md4GitHub.md)
+[在GitHub阅读正文](md4GitHub.md)
 
 ----
 
