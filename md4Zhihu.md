@@ -164,6 +164,8 @@ C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compil
 
 * 删除当前的“绿色版”Cinema 4D R18，并学习使用镜像文件进行正确的软件安装。
 
+<br/>
+
 # 除了主程序，其它都打得开
 
 运行Cinema4D R18主程序时没有反应，进程`CINEMA 4D.exe`只出现在后台，没有界面；
