@@ -309,9 +309,11 @@ explorer ".\X.iso"
 
 ----
 
-[@黄子博](http://www.zhihu.com/people/17084edb97de7106c56c624e23c073aa) 先导、全程协助，
+[@黄子博](http://www.zhihu.com/people/17084edb97de7106c56c624e23c073aa) 先导、全程协助；
 
-贴吧用户[@hry31580](http://tieba.baidu.com/home/main/?un=hry31580) （c4d吧小吧主）的主题帖的指引，
+贴吧用户[@hry31580](http://tieba.baidu.com/home/main/?un=hry31580) （c4d吧小吧主）的主题帖的指引；
+
+贴吧用户[@四青](http://tieba.baidu.com/home/main?un=%E5%9B%9B%E9%9D%92) [@处女ET](http://tieba.baidu.com/home/main?un=%E5%A4%84%E5%A5%B3ET) 的提示；
 
 <br/>
 
