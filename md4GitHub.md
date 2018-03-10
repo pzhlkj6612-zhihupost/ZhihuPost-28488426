@@ -28,16 +28,14 @@
 
 * 无法定位程序输入点RemoveDLLDirectory
 * 鉴定时间超出
-* \* 更新助手出现一个错误
+* 更新助手出现一个错误（猜测）
 * 丢失MSVC****.dll
 * 丢失libmmd.dll
 * Missing serial number
 * “除了主程序，其他都打得开”
-* \* “启动界面一闪而过”
+* “启动界面一闪而过”（猜测）
 * 脚注
 * 其他
-
-标\*的表示该部分内容未经过充分测试，请谨慎参考。
 
 ----
 
@@ -73,7 +71,7 @@
 
 <br/>
 
-# \* 更新助手出现一个错误
+# 更新助手出现一个错误（猜测）
 
 安装Cinema4D R18时出错：
 
@@ -213,7 +211,7 @@ C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compil
 
 <br/>
 
-# \* “启动界面一闪而过”
+# “启动界面一闪而过”（猜测）
 
 运行Cinema4D R18主程序时，启动界面出现“Initializing Plugins...”后消失，进程`CINEMA 4D.exe`也随之消失；
 
