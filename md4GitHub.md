@@ -140,7 +140,7 @@ C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compil
 
 例外情况：
 
-* （4楼）http://tieba.baidu.com/p/3861775818?pid=70743381356#70743381356
+* （4楼）[http://tieba.baidu.com/p/3861775818?pid=70743381356#70743381356](http://tieba.baidu.com/p/3861775818?pid=70743381356#70743381356)
 
 <br/>
 
