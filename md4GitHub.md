@@ -28,12 +28,12 @@
 
 * 无法定位程序输入点RemoveDLLDirectory
 * 鉴定时间超出
-* * 更新助手出现一个错误
+* \* 更新助手出现一个错误
 * 丢失MSVC****.dll
 * 丢失libmmd.dll
 * Missing serial number
 * “除了主程序，其他都打得开”
-* * “启动界面一闪而过”
+* \* “启动界面一闪而过”
 * 脚注
 * 其他
 
@@ -67,7 +67,7 @@
 
 解决方法：
 
-* 单击“Retry”，注意UAC提示：
+* 单击“Retry”，注意UAC提示（在这里，你需要点`Yes`）：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-de95d6fc28359f75ad955f9603798c2a.jpg)
 
@@ -105,8 +105,8 @@
 
 有可能会出现以下情况，但最终Cinema4D能够运行：
 
-CINEMA 4D.exe - 系统错误
-(X) 无法启动此程序，因为计算机中丢失MSVCR110.dll。尝试重新安装该程序以解决此问题。
+> CINEMA 4D.exe - 系统错误    
+> (X) 无法启动此程序，因为计算机中丢失MSVCR110.dll。尝试重新安装该程序以解决此问题。
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-cb65780fef410ba0128374e2a5148267.jpg)
 
@@ -129,8 +129,8 @@ CINEMA 4D.exe - 系统错误
 
 解决方法：
 
-挂载或解压Cinema4D R18的镜像文件[0]，找到路径“.\bin\data\redist”下的“w_ccompxe_redist_intel64_2015.2.179.msi”文件[3]，双击以安装。
-安装程序会添加相关的环境变量，并在这个目录释放libmmd.dll：
+* 挂载或解压Cinema4D R18的镜像文件[0]，找到路径`.\bin\data\redist`下的`w_ccompxe_redist_intel64_2015.2.179.msi`文件[3]，双击以安装。
+安装程序会添加相关的环境变量，并在这个目录释放`libmmd.dll`：
 
 ```
 C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler
@@ -163,13 +163,13 @@ C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compil
 
 长期解决方法：
 
-* 清理当前的Cinema 4D R18，并学习使用Cinema4D R18的镜像文件进行正确的安装和注册。
+* 清理当前的Cinema 4D R18，并学习使用Cinema4D R18的镜像文件进行正确的软件安装。
 
 # “除了主程序，其他都打得开”
 
-运行Cinema4D R18主程序时没有反应，进程“CINEMA 4D.exe”一直在后台且没有动静；
+运行Cinema4D R18主程序时没有反应，进程“CINEMA 4D.exe”只出现在后台，没有界面；
 
-Commandline/Team Render Client/Team Render Server打开都正常；
+运行Team Render Client/Team Render Server正常（Commandline不确定）；
 
 现象参考：
 
@@ -177,7 +177,7 @@ Commandline/Team Render Client/Team Render Server打开都正常；
 
 临时解决方法：
 
-* 进入Cinema4D的程序目录（Cinema4D被安装到的位置，参考“‘启动界面一闪而过’”部分“解决方法”的附图），找到路径“.\resource\libs\win64”下的“mesa”文件夹，将其改名或移出原位置（不要直接删掉），再运行Cinema4D R18主程序。
+* 进入Cinema4D的程序目录（Cinema4D被安装到的位置，参考“‘启动界面一闪而过’”部分“解决方法”的附图），找到路径`.\resource\libs\win64`下的`mesa`文件夹，将其改名或移出原位置（不要直接删掉），再运行Cinema4D R18主程序。
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-e5187b4d6c3a4fd4a7b65163a305af5a.jpg)
 
@@ -188,11 +188,12 @@ Commandline/Team Render Client/Team Render Server打开都正常；
 长期解决方法：
 
 * 从Cinema4D官网上下载R18的更新：https://www.maxon.net/en-us/support/downloads/#c25195
+
 （R18.057更新的相关信息：http://tieba.baidu.com/p/5217877841）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-bc0266a0413e88d96ac9ff1047286c68.jpg)
 
-运行Team Render Client或Team Render Server，`Help`-`Manual Installation`-`Continue`-`✔ I have...`-`Continue`-`✔ Automatically restart...&✔ Delete downloaded...`-`Continue`，注意UAC提示：
+运行Team Render Client或Team Render Server，菜单栏-`Help`-`Manual Installation`-`Continue`-`✔ I have...`-`Continue`-`✔ Automatically restart...&✔ Delete downloaded...`-`Continue`，注意UAC提示：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-810e2ea598e0ffb68f387ecead1ec51b.jpg)
 
@@ -214,9 +215,9 @@ Commandline/Team Render Client/Team Render Server打开都正常；
 
 # “启动界面一闪而过”
 
-运行Cinema4D R18主程序时，启动界面出现“Initializing Plugins...”后消失，进程“CINEMA 4D.exe”也随之消失；
+运行Cinema4D R18主程序时，启动界面出现“Initializing Plugins...”后消失，进程`CINEMA 4D.exe`也随之消失；
 
-Commandline正常；
+运行Commandline正常；
 
 运行Team Render Client/Team Render Server时，启动界面卡在“Initializing Plugins...”；
 
@@ -224,7 +225,7 @@ Commandline正常；
 
 解决方法：
 
-使用默认的安装路径（`C:\Program Files\MAXON\CINEMA 4D R18`），或者使用其它的全英文路径。
+* 使用默认的安装路径（`C:\Program Files\MAXON\CINEMA 4D R18`），或者使用其它的全英文路径。
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-b3b32b2a29b7813fae0aeb84f7bae7c3.jpg)
 
@@ -236,7 +237,7 @@ Commandline正常；
 
 * 对于Windows 8/8.1/10：
 
-右键单击Cinema4D R18的镜像文件，单击“挂载”；
+右键单击Cinema4D R18的镜像文件，单击`挂载`；
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-d7cf159a73a8758b0a6544dc41778528.jpg)
 
@@ -257,6 +258,8 @@ explorer ".\X.iso"
 或使用WinRAR等软件解压镜像文件：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-319e4a801b2a2892598d884f28ea30b7.jpg)
+
+<br/>
 
 **[1] vcredist_x64_2013.exe**
 
