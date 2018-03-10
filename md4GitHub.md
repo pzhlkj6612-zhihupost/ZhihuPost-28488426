@@ -52,7 +52,7 @@
 
 解决方法：
 
-* 《[Cinema4D R18安装程序KERNEL32.dll报错解决方法](https://github.com/pzhlkj6612/ZhihuPost-23656301)》
+* [https://github.com/pzhlkj6612/ZhihuPost-23656301](https://github.com/pzhlkj6612/ZhihuPost-23656301)
 
 <br/>
 
