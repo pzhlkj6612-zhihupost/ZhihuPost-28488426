@@ -97,7 +97,7 @@
 
 解决方法：
 
-* 挂载或解压Cinema4D R18的镜像文件[0]，找到路径`.\bin\data\redist`下的`vcredist_x64_2013.exe`文件[1]，双击以安装。
+* 挂载或解压Cinema4D R18的镜像文件[脚注 0]，找到路径`.\bin\data\redist`下的`vcredist_x64_2013.exe`文件[脚注 1]，双击以安装。
 
 <br/>
 
@@ -112,7 +112,7 @@
 
 解决方法：
 
-* 挂载或解压Cinema4D R18的镜像文件[0]，找到路径`.\bin\data\redist`下的`vcredist_x64_2012.exe`文件[2]，双击以安装。
+* 挂载或解压Cinema4D R18的镜像文件[脚注 0]，找到路径`.\bin\data\redist`下的`vcredist_x64_2012.exe`文件[脚注 2]，双击以安装。
 
 <br/>
 
@@ -127,9 +127,9 @@
 
 解决方法：
 
-* 挂载或解压Cinema4D R18的镜像文件[0]，找到路径`.\bin\data\redist`下的`w_ccompxe_redist_intel64_2015.2.179.msi`文件[3]，双击以安装。
+* 挂载或解压Cinema4D R18的镜像文件[脚注 0]，找到路径`.\bin\data\redist`下的`w_ccompxe_redist_intel64_2015.2.179.msi`文件[脚注 3]，双击以安装。
 
-安装程序会添加相关的环境变量，并在这个目录释放`libmmd.dll`：
+安装程序会添加相关的环境变量，并将`libmmd.dll`释放到这个目录：
 
 ```
 C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler
@@ -158,11 +158,11 @@ C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compil
 
 可能会造成的问题：
 
-* 该Cinema 4D R18未经过正确的安装过程，可能会有潜在的问题，在将来暴露出来。
+* 该Cinema 4D R18未经过正确的安装过程，可能有潜在的问题，会在以后暴露出来。
 
 长期解决方法：
 
-* 清理当前的Cinema 4D R18，并学习使用Cinema4D R18的镜像文件进行正确的软件安装。
+* 删除当前的“绿色版”Cinema 4D R18，并学习使用镜像文件进行正确的软件安装。
 
 # 除了主程序，其它都打得开
 
@@ -176,7 +176,7 @@ C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compil
 
 临时解决方法：
 
-* 进入Cinema4D的程序目录（Cinema4D被安装到的位置，参考“‘启动界面一闪而过’”部分“解决方法”的附图），找到路径`.\resource\libs\win64`下的`mesa`文件夹，将其改名或移出原位置（不要直接删掉），再运行Cinema4D R18主程序：
+* 进入Cinema4D的程序目录（在Cinema 4D R18的快捷方式上右键-`打开文件位置`），找到路径`.\resource\libs\win64`下的`mesa`文件夹，将其改名或移出原位置（不要直接删掉），再运行Cinema4D R18主程序：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-e5187b4d6c3a4fd4a7b65163a305af5a.jpg)
 
@@ -192,7 +192,9 @@ C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compil
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-bc0266a0413e88d96ac9ff1047286c68.jpg)
 
-* 运行Team Render Client或Team Render Server，菜单栏-`Help`-`Manual Installation`-`Continue`-`✔ I have...`-`Continue`-`✔ Automatically restart...`&`✔ Delete downloaded...`-`Continue`，注意UAC提示：
+* 运行Team Render Client或Team Render Server，菜单栏-`帮助`-`手动安装`，找到`.c4dupdate`文件-`打开`-`继续`-`✔ 我已经阅读...`-`继续`-`✔ 在完成安装后删除...`-`继续`，注意UAC提示：
+
+（[图文](http://tieba.baidu.com/p/5217877841#post_content_109254146562)）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-810e2ea598e0ffb68f387ecead1ec51b.jpg)
 
