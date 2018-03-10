@@ -67,13 +67,13 @@
 
 解决方法：
 
-* 单击“Retry”，注意UAC提示（在这里，你需要点`Yes`）：
+* 单击“Retry”，注意UAC提示（在这里，你需要点“Yes”）：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-de95d6fc28359f75ad955f9603798c2a.jpg)
 
 <br/>
 
-# 更新助手出现一个错误
+# \* 更新助手出现一个错误
 
 安装Cinema4D R18时出错：
 
@@ -99,11 +99,11 @@
 
 解决方法：
 
-挂载或解压Cinema4D R18的镜像文件[0]，找到路径`.\bin\data\redist`下的`vcredist_x64_2013.exe`文件[1]，双击以安装。
+* 挂载或解压Cinema4D R18的镜像文件[0]，找到路径`.\bin\data\redist`下的`vcredist_x64_2013.exe`文件[1]，双击以安装。
 
 <br/>
 
-有可能会出现以下情况，但最终Cinema4D能够运行：
+有可能会出现以下情况，但Cinema4D最终能够打开：
 
 > CINEMA 4D.exe - 系统错误    
 > (X) 无法启动此程序，因为计算机中丢失MSVCR110.dll。尝试重新安装该程序以解决此问题。
@@ -114,7 +114,7 @@
 
 解决方法：
 
-* 挂载或解压Cinema4D R18的镜像文件[0]，找到路径“.\bin\data\redist”下的“vcredist_x64_2012.exe”文件[2]，双击以安装。
+* 挂载或解压Cinema4D R18的镜像文件[0]，找到路径`.\bin\data\redist`下的`vcredist_x64_2012.exe`文件[2]，双击以安装。
 
 <br/>
 
@@ -140,7 +140,7 @@ C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compil
 
 例外情况：
 
-（4楼）http://tieba.baidu.com/p/3861775818?pid=70743381356#70743381356
+* （4楼）http://tieba.baidu.com/p/3861775818?pid=70743381356#70743381356
 
 <br/>
 
@@ -173,7 +173,7 @@ C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compil
 
 现象参考：
 
-* （视频中前13秒）http://www.bilibili.com/video/av7450404/
+* （视频中前13秒）[http://www.bilibili.com/video/av7450404/](http://www.bilibili.com/video/av7450404/)
 
 临时解决方法：
 
@@ -187,13 +187,13 @@ C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compil
 
 长期解决方法：
 
-* 从Cinema4D官网上下载R18的更新：https://www.maxon.net/en-us/support/downloads/#c25195
+* 从Cinema4D官网上下载R18的更新：[https://www.maxon.net/en-us/support/downloads/#c25195](https://www.maxon.net/en-us/support/downloads/#c25195)
 
-（R18.057更新的相关信息：http://tieba.baidu.com/p/5217877841）
+（R18.057更新的相关信息：[http://tieba.baidu.com/p/5217877841](http://tieba.baidu.com/p/5217877841)）
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-bc0266a0413e88d96ac9ff1047286c68.jpg)
 
-运行Team Render Client或Team Render Server，菜单栏-`Help`-`Manual Installation`-`Continue`-`✔ I have...`-`Continue`-`✔ Automatically restart...&✔ Delete downloaded...`-`Continue`，注意UAC提示：
+运行Team Render Client或Team Render Server，菜单栏-`Help`-`Manual Installation`-`Continue`-`✔ I have...`-`Continue`-`✔ Automatically restart...`&`✔ Delete downloaded...`-`Continue`，注意UAC提示：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-810e2ea598e0ffb68f387ecead1ec51b.jpg)
 
@@ -213,7 +213,7 @@ C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compil
 
 <br/>
 
-# “启动界面一闪而过”
+# \* “启动界面一闪而过”
 
 运行Cinema4D R18主程序时，启动界面出现“Initializing Plugins...”后消失，进程`CINEMA 4D.exe`也随之消失；
 
@@ -248,6 +248,8 @@ explorer ".\X.iso"
 ```
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-469aac419a1bc6d3a90bdcc87104b049.jpg)
+
+<br/>
 
 * 对于Windows 7：
 
