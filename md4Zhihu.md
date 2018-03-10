@@ -8,7 +8,7 @@
 
 本文章内容由我的这篇文章转移而来：
 
-[https://github.com/pzhlkj6612/ZhihuPost-23656301](https://github.com/pzhlkj6612/ZhihuPost-23656301)
+[https://zhuanlan.zhihu.com/p/23656301](https://zhuanlan.zhihu.com/p/23656301)
 
 本文章也存在于GitHub仓库：
 
