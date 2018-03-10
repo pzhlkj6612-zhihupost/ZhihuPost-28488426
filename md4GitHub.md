@@ -175,7 +175,7 @@ C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compil
 
 临时解决方法：
 
-* 进入Cinema4D的程序目录（Cinema4D被安装到的位置，参考“‘启动界面一闪而过’”部分“解决方法”的附图），找到路径`.\resource\libs\win64`下的`mesa`文件夹，将其改名或移出原位置（不要直接删掉），再运行Cinema4D R18主程序。
+* 进入Cinema4D的程序目录（Cinema4D被安装到的位置，参考“‘启动界面一闪而过’”部分“解决方法”的附图），找到路径`.\resource\libs\win64`下的`mesa`文件夹，将其改名或移出原位置（不要直接删掉），再运行Cinema4D R18主程序：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-e5187b4d6c3a4fd4a7b65163a305af5a.jpg)
 
@@ -191,7 +191,7 @@ C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compil
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-bc0266a0413e88d96ac9ff1047286c68.jpg)
 
-运行Team Render Client或Team Render Server，菜单栏-`Help`-`Manual Installation`-`Continue`-`✔ I have...`-`Continue`-`✔ Automatically restart...`&`✔ Delete downloaded...`-`Continue`，注意UAC提示：
+* 运行Team Render Client或Team Render Server，菜单栏-`Help`-`Manual Installation`-`Continue`-`✔ I have...`-`Continue`-`✔ Automatically restart...`&`✔ Delete downloaded...`-`Continue`，注意UAC提示：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-810e2ea598e0ffb68f387ecead1ec51b.jpg)
 
@@ -217,13 +217,13 @@ C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compil
 
 运行Commandline正常；
 
-运行Team Render Client/Team Render Server时，启动界面卡在“Initializing Plugins...”；
+运行Team Render Client/Team Render Server时，启动界面卡在“Initializing Plugins...”：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-e1a2f1238e44e93ae74ab6bc13448659.jpg)
 
 解决方法：
 
-* 使用默认的安装路径（`C:\Program Files\MAXON\CINEMA 4D R18`），或者使用其它的全英文路径。
+* 卸载已安装的Cinema4D R18，并重新安装到默认的路径（`C:\Program Files\MAXON\CINEMA 4D R18`），或者其它的全英文路径：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-b3b32b2a29b7813fae0aeb84f7bae7c3.jpg)
 
@@ -235,11 +235,11 @@ C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compil
 
 * 对于Windows 8/8.1/10：
 
-右键单击Cinema4D R18的镜像文件，单击`挂载`；
+右键单击Cinema4D R18的镜像文件，单击`挂载`：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-d7cf159a73a8758b0a6544dc41778528.jpg)
 
-或执行以下命令（`.\X.iso`是Cinema4D R18的镜像文件的绝对路径）；
+或执行以下命令（`.\X.iso`是Cinema4D R18的镜像文件的绝对路径）：
 
 ``` Powershell
 explorer ".\X.iso"
@@ -251,7 +251,7 @@ explorer ".\X.iso"
 
 * 对于Windows 7：
 
-使用Daemon Tools Lite等软件挂载镜像；
+使用Daemon Tools Lite等软件挂载镜像：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-28488426/master/pic_zhimg_com/v2-24791609880005bbbc124e648021418d.jpg)
 
