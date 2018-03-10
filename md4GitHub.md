@@ -32,10 +32,10 @@
 * 丢失MSVC****.dll
 * 丢失libmmd.dll
 * Missing serial number
-* “除了主程序，其他都打得开”
-* “启动界面一闪而过”（猜测）
+* 除了主程序，其它都打得开
+* 启动界面一闪而过（猜测）
 * 脚注
-* 其他
+* 其它
 
 ----
 
@@ -128,6 +128,7 @@
 解决方法：
 
 * 挂载或解压Cinema4D R18的镜像文件[0]，找到路径`.\bin\data\redist`下的`w_ccompxe_redist_intel64_2015.2.179.msi`文件[3]，双击以安装。
+
 安装程序会添加相关的环境变量，并在这个目录释放`libmmd.dll`：
 
 ```
@@ -163,7 +164,7 @@ C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compil
 
 * 清理当前的Cinema 4D R18，并学习使用Cinema4D R18的镜像文件进行正确的软件安装。
 
-# “除了主程序，其他都打得开”
+# 除了主程序，其它都打得开
 
 运行Cinema4D R18主程序时没有反应，进程“CINEMA 4D.exe”只出现在后台，没有界面；
 
@@ -211,7 +212,7 @@ C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compil
 
 <br/>
 
-# “启动界面一闪而过”（猜测）
+# 启动界面一闪而过（猜测）
 
 运行Cinema4D R18主程序时，启动界面出现“Initializing Plugins...”后消失，进程`CINEMA 4D.exe`也随之消失；
 
@@ -281,7 +282,7 @@ explorer ".\X.iso"
 
 ----
 
-# 其他
+# 其它
 
 * Cinema4D、Premiere Pro入门推荐doyoudo：[http://www.doyoudo.com/](http://www.doyoudo.com/)
 * 能集成到Explorer shell里的Hashtab，个人免费：[http://implbits.com/products/hashtab/](http://implbits.com/products/hashtab/)
