@@ -8,11 +8,11 @@
 
 本文章内容由我的这篇文章转移而来：
 
-[https://github.com/pzhlkj6612/ZhihuPost-23656301](https://github.com/pzhlkj6612/ZhihuPost-23656301)
+[https://github.com/pzhlkj6612-zhihupost/ZhihuPost-23656301](https://github.com/pzhlkj6612-zhihupost/ZhihuPost-23656301)
 
 本文章也存在于GitHub仓库：
 
-[https://github.com/pzhlkj6612/ZhihuPost-28488426](https://github.com/pzhlkj6612/ZhihuPost-28488426)
+[https://github.com/pzhlkj6612-zhihupost/ZhihuPost-28488426](https://github.com/pzhlkj6612-zhihupost/ZhihuPost-28488426)
 
 <br/>
 
@@ -27,12 +27,12 @@
 # 目录
 
 - [目录](#%E7%9B%AE%E5%BD%95)
-- [无法定位程序输入点RemoveDLLDirectory](#%E6%97%A0%E6%B3%95%E5%AE%9A%E4%BD%8D%E7%A8%8B%E5%BA%8F%E8%BE%93%E5%85%A5%E7%82%B9removedlldirectory)
+- [无法定位程序输入点RemoveDLLDirectory](#%E6%97%A0%E6%B3%95%E5%AE%9A%E4%BD%8D%E7%A8%8B%E5%BA%8F%E8%BE%93%E5%85%A5%E7%82%B9RemoveDLLDirectory)
 - [鉴定时间超出](#%E9%89%B4%E5%AE%9A%E6%97%B6%E9%97%B4%E8%B6%85%E5%87%BA)
 - [更新助手出现一个错误（猜测）](#%E6%9B%B4%E6%96%B0%E5%8A%A9%E6%89%8B%E5%87%BA%E7%8E%B0%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%8C%9C%E6%B5%8B)
-- [丢失MSVC****.dll](#%E4%B8%A2%E5%A4%B1msvcdll)
+- [丢失MSVC****.dll](#%E4%B8%A2%E5%A4%B1MSVCdll)
 - [丢失libmmd.dll](#%E4%B8%A2%E5%A4%B1libmmddll)
-- [Missing serial number](#missing-serial-number)
+- [Missing serial number](#Missing-serial-number)
 - [除了主程序，其它都打得开](#%E9%99%A4%E4%BA%86%E4%B8%BB%E7%A8%8B%E5%BA%8F%E5%85%B6%E5%AE%83%E9%83%BD%E6%89%93%E5%BE%97%E5%BC%80)
 - [启动界面一闪而过（猜测）](#%E5%90%AF%E5%8A%A8%E7%95%8C%E9%9D%A2%E4%B8%80%E9%97%AA%E8%80%8C%E8%BF%87%E7%8C%9C%E6%B5%8B)
 - [脚注](#%E8%84%9A%E6%B3%A8)
@@ -51,7 +51,7 @@
 
 解决方法：
 
-* [https://github.com/pzhlkj6612/ZhihuPost-23656301](https://github.com/pzhlkj6612/ZhihuPost-23656301)
+* [https://github.com/pzhlkj6612-zhihupost/ZhihuPost-23656301](https://github.com/pzhlkj6612-zhihupost/ZhihuPost-23656301)
 
 <br/>
 

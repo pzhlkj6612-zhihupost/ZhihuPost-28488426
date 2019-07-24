@@ -12,7 +12,7 @@
 
 本文章也存在于GitHub仓库：
 
-[https://github.com/pzhlkj6612/ZhihuPost-28488426](https://github.com/pzhlkj6612/ZhihuPost-28488426)
+[https://github.com/pzhlkj6612-zhihupost/ZhihuPost-28488426](https://github.com/pzhlkj6612-zhihupost/ZhihuPost-28488426)
 
 <br/>
 
@@ -51,7 +51,7 @@
 
 解决方法：
 
-* [https://github.com/pzhlkj6612/ZhihuPost-23656301](https://github.com/pzhlkj6612/ZhihuPost-23656301)
+* [https://github.com/pzhlkj6612-zhihupost/ZhihuPost-23656301](https://github.com/pzhlkj6612-zhihupost/ZhihuPost-23656301)
 
 <br/>
 
